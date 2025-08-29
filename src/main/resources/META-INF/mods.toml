@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="LGPL v2.1"
+[[mods]]
+modId="literal_translation"
+version="${file.jarVersion}" #mandatory
+displayName="Literal Translation" #mandatory
+description='''
+Translate the untranslatables
+'''
+[[dependencies.literal_translation]]
+    modId="forge"
+    mandatory=true
+    versionRange="[46.0.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.literal_translation]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
